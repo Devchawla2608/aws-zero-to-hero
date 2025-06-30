@@ -1,6 +1,3 @@
-# 🚀 AWS DevOps Zero to Hero — 404Found
-
-![404Found Banner](https://your-banner-image-url-here) <!-- Optional: Add your banner image link -->
 
 ## 📌 Learn AWS for DevOps in 30 Days — Real Projects, Real Skills
 
