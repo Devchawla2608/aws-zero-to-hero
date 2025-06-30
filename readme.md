@@ -1,169 +1,296 @@
+# 📌 Learn AWS for DevOps in 30 Days — Real Projects, Real Skills
 
-## 📌 Learn AWS for DevOps in 30 Days — Real Projects, Real Skills
+Welcome to **404Found’s AWS DevOps Zero to Hero** — a practical, hands-on roadmap to master **AWS Cloud**, **DevOps tools**, and **real-world infrastructure projects**, step by step.
 
-Welcome to **404Found’s AWS DevOps Zero to Hero** — your practical, hands-on roadmap to learn **AWS Cloud**, **DevOps tools**, and **real-world infrastructure projects** step by step.
-
-> 🔗 **Complete YouTube Playlist:** [Watch Here](https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze)
+> 🎥 **Complete YouTube Playlist:** [Watch Here](https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze)
 
 ---
 
-## ⚡ What’s Inside?
+## ⚡ What’s Inside
 
-✅ **30-Day Day-by-Day Plan**  
-✅ **Hands-on Labs & Projects**  
+✅ **30-Day Structured Plan**  
+✅ **Hands-On Labs & Real Projects**  
 ✅ **Infrastructure as Code (Terraform)**  
-✅ **Serverless Workflows**  
-✅ **CI/CD with CodePipeline, ECS, ECR**  
+✅ **Serverless Workflows & Microservices**  
+✅ **CI/CD Pipelines with CodePipeline, ECS & ECR**  
 ✅ **Secrets Manager, Cognito, DynamoDB**  
-✅ **Real Interview Q&A**  
-✅ **Free slides, commands & practice files**
+✅ **500+ Real Interview Questions & Answers**  
+✅ **Free Slides, Scripts, & Practice Files**
 
 ---
 
-## 🎯 Who Is This For?
+## 🎯 Who Should Use This
 
-✔️ DevOps Engineers  
-✔️ Cloud Enthusiasts  
-✔️ Beginners & Intermediates  
-✔️ Anyone who wants **real AWS projects on their resume**
+✔️ DevOps & Cloud Engineer Aspirants  
+✔️ Developers wanting to master AWS  
+✔️ Beginners & Intermediate Learners  
+✔️ Anyone building **real AWS projects** for their portfolio or job switch
 
 ---
 
 ## 📅 30-Day Roadmap
 
-| Day | Topic | Project / Outcome |
-|-----|-------|--------------------|
-| **Day 1** | AWS Intro | Private vs Public Cloud, AWS Account Setup |
-| **Day 2** | IAM | Users, Groups, MFA, Policies |
-| **Day 3** | Organizations | Multi-Account Setup, Budgets |
-| **Day 4** | EC2 | Launch Server + Deploy Jenkins |
-| **Day 5** | VPC | Custom VPC, Subnets, NAT Gateway |
-| **Day 6** | Load Balancer & ASG | ALB + Auto Scaling |
-| **Day 7** | S3 | Host Static Website |
-| **Day 8** | Route 53 & CloudFront | Domain, CDN |
-| **Day 9** | Secrets Manager | Store & Rotate Secrets |
-| **Day 10** | DynamoDB | NoSQL CRUD Ops |
-| **Day 11** | Cognito | User Auth Flow |
-| **Day 12** | SNS & SQS | Pub/Sub, Queues |
-| **Day 13** | Lambda | Functions + Triggers |
-| **Day 14** | API Gateway | REST API |
-| **Day 15** | CloudWatch | Logs, Alarms |
-| **Day 16** | CloudTrail & Config | Audit & Compliance |
-| **Day 17** | CodeCommit & CI/CD | Repo, Build, Deploy |
-| **Day 18** | CodeDeploy | Blue/Green Deployment |
-| **Day 19** | Systems Manager | SSM Session Manager |
-| **Day 20** | EventBridge & Step Functions | Serverless Workflows |
-| **Day 21** | ECR | Private Docker Registry |
-| **Day 22** | ECS & Fargate | Containers at Scale |
-| **Day 23** | EKS | Kubernetes on AWS |
-| **Day 24** | Terraform | Infra as Code |
-| **Day 25** | Backup & DR | Snapshots & Restore |
-| **Day 26** | Cost Optimization | Cost Explorer, Budgets |
-| **Day 27** | CI/CD Project | ECS + ECR Pipeline |
-| **Day 28** | Serverless App | API Gateway + Lambda + DynamoDB |
-| **Day 29** | 500+ Interview Q&A | Topic-wise Prep |
-| **Day 30** | Final Capstone | Full AWS Infra with RDS |
+Below is a **deep dive** of what you’ll do **each day**, what you’ll build, and how it fits real projects.
 
 ---
-## ✅ 30 Days — 3-Liner Descriptions
 
-**Day 1 — AWS Intro**  
-Understand public vs private cloud, why companies migrate to AWS, and set up your AWS account with billing alerts.
-
-**Day 2 — IAM**  
-Manage users, groups, and roles securely. Enforce MFA and least privilege. Control access to AWS resources.
-
-**Day 3 — Organizations**  
-Structure multiple AWS accounts, set up budgets, and avoid surprise charges with cost controls.
-
-**Day 4 — EC2**  
-Launch virtual servers, configure SSH and security groups, and deploy Jenkins for automation.
-
-**Day 5 — VPC**  
-Build a secure Virtual Private Cloud, design subnets, and set up Internet/NAT Gateways.
-
-**Day 6 — Load Balancer & ASG**  
-Distribute traffic with ALB, add EC2 to Target Groups, and configure Auto Scaling for high availability.
-
-**Day 7 — S3**  
-Store and manage files, enable versioning, and host a static website on S3.
-
-**Day 8 — Route 53 & CloudFront**  
-Register domains, set up DNS, and distribute content globally with CloudFront CDN.
-
-**Day 9 — Secrets Manager**  
-Store API keys and passwords securely, automate secret rotation, and avoid hardcoding sensitive data.
-
-**Day 10 — DynamoDB**  
-Learn NoSQL basics, create tables, and perform CRUD operations with the CLI.
-
-**Day 11 — Cognito**  
-Build secure sign-up/sign-in, handle JWT tokens, and integrate authentication with your apps.
-
-**Day 12 — SNS & SQS**  
-Implement pub/sub messaging with SNS, queue tasks with SQS, and build scalable architectures.
-
-**Day 13 — Lambda**  
-Run code serverlessly, trigger functions with S3/DynamoDB, and manage permissions.
-
-**Day 14 — API Gateway**  
-Create secure REST APIs, connect to Lambda/backends, and manage throttling and usage plans.
-
-**Day 15 — CloudWatch**  
-Collect logs and metrics, create dashboards, and set alarms for notifications.
-
-**Day 16 — CloudTrail & Config**  
-Track API calls for auditing, enforce compliance, and stay secure with Config rules.
-
-**Day 17 — CodeCommit & CI/CD**  
-Host code in private Git repos, automate builds, and orchestrate CI/CD pipelines.
-
-**Day 18 — CodeDeploy**  
-Automate deployments to EC2/ECS, implement Blue/Green strategies, and enable easy rollbacks.
-
-**Day 19 — Systems Manager**  
-Manage EC2 without SSH, use Session Manager for secure access, and automate patching.
-
-**Day 20 — EventBridge & Step Functions**  
-Build event-driven workflows, orchestrate AWS services, and automate tasks serverlessly.
-
-**Day 21 — ECR**  
-Store and manage private Docker images, push/pull securely, and integrate with ECS/EKS.
-
-**Day 22 — ECS & Fargate**  
-Run containers at scale, deploy with Task Definitions, and manage updates automatically.
-
-**Day 23 — EKS**  
-Launch Kubernetes clusters, deploy workloads, and manage pods, nodes, and scaling.
-
-**Day 24 — Terraform**  
-Use Infrastructure as Code, build and apply reproducible infra, and manage high availability.
-
-**Day 25 — Backup & DR**  
-Automate backups, restore EC2/RDS snapshots, and build disaster recovery playbooks.
-
-**Day 26 — Cost Optimization**  
-Analyze spending with Cost Explorer, create budgets, and tag resources for cost control.
-
-**Day 27 — CI/CD Project**  
-Automate image builds, deploy Docker images to ECS with ECR, and ensure smooth rollouts.
-
-**Day 28 — Serverless App**  
-Combine API Gateway, Lambda, and DynamoDB to build a secure REST API with Cognito auth.
-
-**Day 29 — 500+ Interview Q&A**  
-Prepare for AWS/DevOps interviews, practice scenario-based questions, and boost your confidence.
-
-**Day 30 — Final Capstone**  
-Combine all skills: deploy full AWS infra with EC2, ALB, RDS, S3, CloudFront, and Cognito for a production-ready app.
-
-
-## 🚀 How to Follow
-
-1️⃣ 📺 Watch the daily video  
-2️⃣ 🗂️ Clone this repo — follow practice commands  
-3️⃣ 🗒️ Complete daily tasks, mark them ✅  
-4️⃣ ⭐ Star this repo & share your progress with `#404FoundAWS`  
-5️⃣ 🎓 Land your **DevOps Cloud job!**
+### 📅 **Day 1 — AWS Introduction**
+- Learn what cloud computing is, its deployment models (public, private, hybrid), and key benefits.
+- Create your AWS free-tier account, configure MFA, billing alarms, and basic cost guardrails.
+- Understand the AWS global infrastructure (Regions, AZs, Edge Locations).
+- 🔑 **Real Skill:** Start with a secure AWS setup — foundational for every real job.
 
 ---
+
+### 📅 **Day 2 — Identity & Access Management (IAM)**
+- Deep dive into IAM: users, groups, roles, and policies.
+- Write custom permission policies in JSON.
+- Implement MFA, password policies, and least privilege.
+- 🔑 **Real Skill:** Control who can do what in your AWS — critical for security compliance.
+
+---
+
+### 📅 **Day 3 — Organizations & Budgets**
+- Organize multiple AWS accounts under AWS Organizations.
+- Apply Service Control Policies (SCPs) to restrict actions.
+- Set up budgets and billing alerts to monitor spend.
+- 🔑 **Real Skill:** Multi-account strategies are used by real companies for isolation & cost control.
+
+---
+
+### 📅 **Day 4 — EC2 (Elastic Compute Cloud)**
+- Launch EC2 instances, configure AMIs, SSH keys, and security groups.
+- Deploy and configure Jenkins on EC2 to build your CI/CD foundation.
+- Use EC2 User Data scripts for automation at boot.
+- 🔑 **Real Skill:** Provision servers in the cloud, automate setup — core for any cloud project.
+
+---
+
+### 📅 **Day 5 — Virtual Private Cloud (VPC)**
+- Design your own VPC: custom IP ranges, subnets, route tables.
+- Create public/private subnets, attach Internet & NAT Gateways.
+- Use Network ACLs and Security Groups for fine-grained traffic control.
+- 🔑 **Real Skill:** Network design is a must-have for real production architectures.
+
+---
+
+### 📅 **Day 6 — Load Balancer & Auto Scaling Group (ASG)**
+- Create an Application Load Balancer (ALB) to distribute traffic.
+- Attach EC2 instances to Target Groups.
+- Configure Auto Scaling based on CPU or custom CloudWatch metrics.
+- 🔑 **Real Skill:** Keep applications highly available and resilient under real-world load.
+
+---
+
+### 📅 **Day 7 — Simple Storage Service (S3)**
+- Create S3 buckets, set up bucket policies, enable versioning and encryption.
+- Host a static website directly from an S3 bucket.
+- Use Lifecycle Rules to manage storage costs.
+- 🔑 **Real Skill:** Static hosting, backups, and file storage are daily S3 use cases in the real world.
+
+---
+
+### 📅 **Day 8 — Route 53 & CloudFront**
+- Register domains with Route 53.
+- Set up hosted zones, DNS records, and health checks.
+- Integrate CloudFront as a global CDN with SSL.
+- 🔑 **Real Skill:** Make websites faster, secure, and globally distributed.
+
+---
+
+### 📅 **Day 9 — Secrets Manager**
+- Store API keys, DB credentials securely in AWS Secrets Manager.
+- Automate secret rotation for compliance.
+- Integrate secrets with Lambda or EC2 using IAM roles.
+- 🔑 **Real Skill:** Secure secrets management is mandatory in enterprise-grade apps.
+
+---
+
+### 📅 **Day 10 — DynamoDB (NoSQL Database)**
+- Understand DynamoDB core concepts: Tables, Partition Keys, Sort Keys.
+- Perform CRUD operations with the AWS CLI & SDK.
+- Implement data consistency and DynamoDB Streams.
+- 🔑 **Real Skill:** Serverless backends use DynamoDB for millisecond performance.
+
+---
+
+### 📅 **Day 11 — Cognito (User Authentication)**
+- Create User Pools for sign-up/sign-in flows.
+- Configure Identity Pools for temporary AWS credentials.
+- Integrate Cognito auth with your web or mobile app.
+- 🔑 **Real Skill:** Build secure user authentication without reinventing the wheel.
+
+---
+
+### 📅 **Day 12 — SNS & SQS (Messaging)**
+- Publish messages to SNS topics and subscribe with email/SMS.
+- Queue tasks reliably with SQS FIFO or Standard queues.
+- Build an event-driven pipeline that combines SNS & SQS.
+- 🔑 **Real Skill:** Messaging patterns for microservices and decoupled systems.
+
+---
+
+### 📅 **Day 13 — Lambda (Serverless Functions)**
+- Write Lambda functions in Python or Node.js.
+- Trigger them via S3 uploads, DynamoDB Streams, or API Gateway.
+- Manage concurrency and permissions.
+- 🔑 **Real Skill:** Run code without servers — pay only for usage.
+
+---
+
+### 📅 **Day 14 — API Gateway**
+- Create secure RESTful APIs.
+- Connect to Lambda or backend services.
+- Apply throttling, usage plans, and authentication (API Keys/Cognito).
+- 🔑 **Real Skill:** Serverless APIs power modern apps and microservices.
+
+---
+
+### 📅 **Day 15 — CloudWatch**
+- Collect logs and metrics from EC2, Lambda, etc.
+- Create custom dashboards and set CloudWatch Alarms.
+- Use Insights to query logs and troubleshoot apps.
+- 🔑 **Real Skill:** Monitoring is vital for real-time visibility and alerts.
+
+---
+
+### 📅 **Day 16 — CloudTrail & Config**
+- Enable CloudTrail to log every API call.
+- Use AWS Config to track resource configurations.
+- Write Config Rules to enforce compliance.
+- 🔑 **Real Skill:** Auditing and compliance are must-haves for production environments.
+
+---
+
+### 📅 **Day 17 — CodeCommit & CI/CD**
+- Create private Git repositories using CodeCommit.
+- Automate builds with CodeBuild and orchestration with CodePipeline.
+- Integrate tests to catch bugs early.
+- 🔑 **Real Skill:** CI/CD automation is the backbone of modern DevOps workflows.
+
+---
+
+### 📅 **Day 18 — CodeDeploy**
+- Automate deployments to EC2 or ECS.
+- Implement Blue/Green and Rolling deployments.
+- Roll back instantly if something breaks.
+- 🔑 **Real Skill:** Safe deployments are mission-critical for real-world production.
+
+---
+
+### 📅 **Day 19 — Systems Manager**
+- Use Session Manager to connect to EC2 instances securely (no SSH keys!).
+- Automate patching with Patch Manager.
+- Manage configuration at scale with Parameter Store.
+- 🔑 **Real Skill:** Centralized management and compliance at scale.
+
+---
+
+### 📅 **Day 20 — EventBridge & Step Functions**
+- Capture events from AWS services and SaaS apps with EventBridge.
+- Orchestrate complex workflows using Step Functions.
+- Combine multiple Lambdas and services without writing glue code.
+- 🔑 **Real Skill:** Event-driven architecture and workflow automation.
+
+---
+
+### 📅 **Day 21 — ECR (Elastic Container Registry)**
+- Build, tag, and push Docker images to a secure private registry.
+- Manage image lifecycle policies and cleanups.
+- Integrate ECR with ECS/EKS deployments.
+- 🔑 **Real Skill:** Containers need a secure image registry for production.
+
+---
+
+### 📅 **Day 22 — ECS & Fargate (Containers)**
+- Deploy containerized apps using ECS.
+- Use Fargate to run containers without managing servers.
+- Scale containers automatically with Task Definitions.
+- 🔑 **Real Skill:** Containers are everywhere — orchestration is DevOps 101.
+
+---
+
+### 📅 **Day 23 — EKS (Kubernetes)**
+- Spin up managed Kubernetes clusters.
+- Deploy workloads, manage pods, nodes, and autoscaling.
+- Secure cluster access with IAM and RBAC.
+- 🔑 **Real Skill:** Kubernetes is a standard for container orchestration.
+
+---
+
+### 📅 **Day 24 — Terraform (Infrastructure as Code)**
+- Write Terraform scripts to provision AWS resources.
+- Manage state files securely.
+- Apply modules for reusable infrastructure.
+- 🔑 **Real Skill:** Infrastructure as Code (IaC) is the backbone of modern cloud automation.
+
+---
+
+### 📅 **Day 25 — Backup & Disaster Recovery**
+- Automate EC2/RDS backups with AWS Backup.
+- Create snapshot schedules and retention rules.
+- Test DR scenarios to restore services fast.
+- 🔑 **Real Skill:** Always prepare for failure — backups save companies daily.
+
+---
+
+### 📅 **Day 26 — Cost Optimization**
+- Use Cost Explorer to track spend.
+- Implement Budgets and Alerts.
+- Apply Savings Plans and Reserved Instances.
+- 🔑 **Real Skill:** Smart engineers save thousands in cloud bills.
+
+---
+
+### 📅 **Day 27 — CI/CD Capstone**
+- Build an end-to-end pipeline: CodeCommit ➜ CodeBuild ➜ ECR ➜ ECS.
+- Automate deployments of Docker images.
+- Enable versioned rollbacks.
+- 🔑 **Real Skill:** Show you can automate build-to-deploy pipelines.
+
+---
+
+### 📅 **Day 28 — Serverless App Capstone**
+- Combine API Gateway, Lambda, DynamoDB, Cognito for full CRUD.
+- Deploy a fully serverless backend.
+- Secure it with IAM and Cognito user pools.
+- 🔑 **Real Skill:** Real-world serverless stacks for modern apps.
+
+---
+
+### 📅 **Day 29 — 500+ Interview Q&A**
+- Practice real AWS/DevOps scenario questions.
+- Answer confidently with examples.
+- Use your daily projects to stand out in interviews.
+- 🔑 **Real Skill:** Be job-ready with practical stories to tell.
+
+---
+
+### 📅 **Day 30 — Final Production-Ready Capstone**
+- Combine all your skills: EC2, ALB, RDS, S3, CloudFront, Cognito.
+- Deploy a full-stack infra for a real-world use case.
+- Document and showcase your project in your portfolio.
+- 🔑 **Real Skill:** Prove you can design, build, secure, and run cloud infra.
+
+---
+
+## 🚀 How to Get Started
+
+1️⃣ **Watch the daily video** on YouTube.  
+2️⃣ **Clone this repo** — follow practice commands & scripts.  
+3️⃣ **Complete daily tasks**, mark them ✅.  
+4️⃣ **Star this repo & share progress** with `#404FoundAWS`.  
+5️⃣ **Land your dream DevOps job!**
+
+---
+
+## ⭐ Stay Connected
+
+- 📺 [Subscribe on YouTube](https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze)  
+- 🐦 [Follow on Twitter](#)  
+- 💬 [Join the Community](#)
+
+---
+
+**🚀 Make DevOps simple — one day at a time!**
+
